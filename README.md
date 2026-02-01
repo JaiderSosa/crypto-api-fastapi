@@ -36,9 +36,9 @@ La aplicación utiliza dos endpoints de la API de OpenWeatherMap:
 
 | Parámetro | Tipo | Requerido | Descripción |
 |-----------|------|-----------|-------------|
-| `q` | string | ✅ Sí | Nombre de la ciudad a buscar (ej: "Bogota", "Madrid") |
-| `limit` | int | ❌ No | Número máximo de resultados (usamos 1) |
-| `appid` | string | ✅ Sí | API Key de OpenWeatherMap |
+| `q` | string |  Sí | Nombre de la ciudad a buscar (ej: "Bogota", "Madrid") |
+| `limit` | int |  No | Número máximo de resultados (usamos 1) |
+| `appid` | string |  Sí | API Key de OpenWeatherMap |
 
 #### Ejemplo de Petición
 
@@ -88,11 +88,11 @@ GET http://api.openweathermap.org/geo/1.0/direct?q=Bogota&limit=1&appid=TU_API_K
 
 | Parámetro | Tipo | Requerido | Descripción |
 |-----------|------|-----------|-------------|
-| `lat` | float | ✅ Sí | Latitud de la ubicación |
-| `lon` | float | ✅ Sí | Longitud de la ubicación |
-| `appid` | string | ✅ Sí | API Key de OpenWeatherMap |
-| `units` | string | ❌ No | Sistema de unidades: `metric` (Celsius), `imperial` (Fahrenheit), `standard` (Kelvin) |
-| `lang` | string | ❌ No | Idioma de las descripciones (ej: `es` para español) |
+| `lat` | float |  Sí | Latitud de la ubicación |
+| `lon` | float |  Sí | Longitud de la ubicación |
+| `appid` | string |  Sí | API Key de OpenWeatherMap |
+| `units` | string |  No | Sistema de unidades: `metric` (Celsius), `imperial` (Fahrenheit), `standard` (Kelvin) |
+| `lang` | string |  No | Idioma de las descripciones (ej: `es` para español) |
 
 #### Ejemplo de Petición
 
@@ -302,10 +302,10 @@ OPENWEATHER_WEATHER_URL=http://api.openweathermap.org/data/2.5/weather
 
 ---
 
-## 👤 Autor
+## Autor
 
-- **Nombre:** Ing. Eduardo Pimienta
-- **Fecha:** Enero 2026
+- **Nombre:** Ing. jaider sosa 
+- **Fecha:** Enero 2026 01
 
 ---
 
